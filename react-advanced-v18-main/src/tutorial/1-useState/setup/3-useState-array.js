@@ -25,8 +25,11 @@ const UseStateArray = () => {
       })}
       <button className="btn" onClick={() => setPeople([])}>
         {/* we need to use the arrow function b/c if not, setPeople will run 
-        before the button is clicked. We don't want this. The function should only
-        run once the button clicks which is but we use the arrow function here and above  */}
+        before the button is clicked because we are passing
+        in the argument ([]) and (id) above, we are also invoking it.
+         We don't want this. The function should only run once the
+          button clicks which is but we use the arrow function here and
+           above  */}
         Clear Items
       </button>
     </>
