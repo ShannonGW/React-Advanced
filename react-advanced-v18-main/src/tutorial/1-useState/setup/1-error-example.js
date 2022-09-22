@@ -15,5 +15,6 @@ const ErrorExample = () => {
     </React.Fragment>
   );
 };
-
+//the title "random title" does not update to "hello people" because it needs to be re-rendered in the function.
+//useState allows us to make that update
 export default ErrorExample;
