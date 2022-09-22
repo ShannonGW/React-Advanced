@@ -6,6 +6,11 @@ const UseStateArray = () => {
   const removeItem = (id) => {
     let newPeople = people.filter((person) => person.id !== id);
     setPeople(newPeople);
+
+    // remove one item from array at a time with the filter method.
+    // Create new variable 'newPeople' and filter through the 'people' array.
+    //if there person.id doesn't match the id of the button being clicked, add it to the newPeople variable
+    //setPeople with newPeople array
   };
   return (
     <>
