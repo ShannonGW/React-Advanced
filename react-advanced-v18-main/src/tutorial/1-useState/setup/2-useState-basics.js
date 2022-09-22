@@ -1,5 +1,10 @@
 import React, { useState } from "react"; //named function we need to use {} and correct name
 
+// all hooks start with 'use'
+//component name must be uppercase
+//must be in the function/component body
+//cannot call conditionally
+
 const UseStateBasics = () => {
   console.log(useState); //this shows up that useState is in fact a function
   console.log(useState()); //returns an undefined array and function
